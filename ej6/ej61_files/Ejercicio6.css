@@ -1,6 +1,15 @@
 
+body{
+    margin:5%;
+    font: 400 1.2em Tahoma, sans-serif; 
+}
+
     .menu{
         display: inline-flex;
+    }
+
+    h3{
+        font: 400 1.5em Tahoma, sans-serif; 
     }
     li{
     list-style-type:none;
@@ -75,13 +84,10 @@
     }
     .form-wrapper {
         width: 50%;
+        margin: 1.2em;
         
     }
 
-    .form-wrapper {
-        margin-bottom: 17px;
-        
-    }
     label {
         margin-bottom: 9px;
         display: block;
