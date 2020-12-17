@@ -8,6 +8,13 @@ body{
         display: inline-flex;
     }
 
+    .boton{
+        font: 400 1.2em Tahoma, sans-serif; 
+        size: 2em;
+        padding: 1.5em;
+        margin:1em;
+    }
+
     h3{
         font: 400 1.5em Tahoma, sans-serif; 
     }
@@ -21,7 +28,7 @@ body{
     text-decoration:none;
     display:block;
     padding:5px 10px;
-    width:120px;
+    width:150px;
     height:30px;
     border:1px solid #000;
     
@@ -58,6 +65,7 @@ body{
 
     .column{
         display: grid;
+        margin: 2em;
     }
 
     * {
@@ -66,10 +74,7 @@ body{
         box-sizing: border-box;
     }
 
-    input, textarea, select, button {
-        font-family: "Muli-Regular";
-        color: #333;
-    }
+  
 
     .inner {
         min-width: 850px;
