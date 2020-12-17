@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://localhost/PHP/Ejercicio-6/Update.php# -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>update</title>
+    
+    <link type="text/css" href="./ej601_files/Ejercicio6.css" rel="stylesheet">
+</head>
+<body><header>
+        <nav>
+            <ul class="menu">
+                <li><a class="non-active" href="http://localhost/PHP/Ejercicio-6/Update.php#">Opciones DB</a>
+                    <ul>
+                        <li><a class="non-active" href="http://localhost/PHP/Ejercicio-6/CreateDataBase.php">CreateDB</a></li>
+                        <li><a class="non-active" href="http://localhost/PHP/Ejercicio-6/CreateTable.php">CreateTable</a></li>
+                    </ul>
+                </li>
+                <li><a class="active" href="http://localhost/PHP/Ejercicio-6/Update.php#">OpcionesT</a>
+                    <ul>
+                        <li><a class="non-active" href="http://localhost/PHP/Ejercicio-6/Insert.php">Insert</a></li>
+                        <li><a class="non-active" href="http://localhost/PHP/Ejercicio-6/Search.php">Search</a></li>
+                        <li><a class="active" href="http://localhost/PHP/Ejercicio-6/Update.php">Update</a></li>
+                        <li><a class="non-active" href="http://localhost/PHP/Ejercicio-6/Delete.php">Delete</a></li>
+                    </ul>
+                </li>
+                <li><a class="non-active" href="http://localhost/PHP/Ejercicio-6/Update.php#">OpcionesI/E</a>
+                    <ul>
+                        <li><a class="non-active" href="http://localhost/PHP/Ejercicio-6/GenerateInforme.php">Generate I</a></li>
+                        <li><a class="non-active" href="http://localhost/PHP/Ejercicio-6/LoadData.php">Load</a></li>
+                        <li><a class="non-active" href="http://localhost/PHP/Ejercicio-6/ExportData.php">Export</a></li>
+                    </ul>
+                </li>
+                <li><a class="non-active" href="http://localhost/PHP/Ejercicio-6/Informe.php">Informe</a></li>
+            </ul>
+        </nav>
+</header>
+
+    
+        <form action="http://localhost/PHP/Ejercicio-6/Update.php#" method="post" name="calculos">
+        <div class="inline">
+            <label for="codigo">Codigo:</label>
+            <input id="codigo" name="codigo" type="number">
+            <input type="submit" name="search" value="Buscar">
+        </div>
+        </form>
+        Connected successfully<br>Database created successfullyTable has created
+        <form action="http://localhost/PHP/Ejercicio-6/Update.php#" method="post" name="calculos">
+        <div>
+            <h3>Datos generales</h3>
+            <div class="inline">
+                <label for="codigo2">Codigo:</label>
+                <input id="codigo2" readonly="" name="codigo" type="number" value="58431900">
+                <label for="nombre">Nombre:</label>
+                <input id="nombre" name="nombre" type="text" value="Fernando">
+                <label for="apellidos">Apellidos:</label>
+                <input id="apellidos" name="apellidos" type="text" value="de" la="" torre="" cueva="">
+            </div>
+            <div class="inline">
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="text" value="pobefer@gmail.com">
+                <label for="telefono">Telefono:</label>
+                <input id="telefono" name="telefono" type="number" value="6">
+                <label for="edad">Edad:</label>
+                <input id="edad" name="edad" type="number" value="23">
+                <label for="sexo">Sexo:</label>
+                <input id="sexo" name="sexo" type="text" value="M">
+            </div>
+        </div>
+        <div>
+            <h3>Datos especificos</h3>
+            <div class="inline">
+                <label for="nivelPericia">Nivel Pericia:</label>
+                <input id="nivelPericia" name="nivelPericia" type="number" value="9">
+                <label for="tiempo">Tiempo:</label>
+                <input id="tiempo" name="tiempo" type="number" value="9">
+                <label for="correcto">Evaluacion:</label>
+                <input id="correcto" name="correcto" type="number" value="9">
+                <label for="valoracion">Valoracion:</label>
+                <input id="valoracion" name="valoracion" type="number" value="9">
+            </div>
+            <div class="column">
+                <label for="comentarios">Comentarios:</label>
+                <textarea id="comentarios" name="comentarios" rows="10" cols="30" placeholder="a"></textarea>
+            </div>
+            <div class="column">
+                <label for="propuestas">Propuestas:</label>
+                <textarea id="propuestas" name="propuestas" rows="10" cols="30" placeholder="a"></textarea>
+            </div>
+        </div>
+        <div>
+            <input type="submit" value="Calcular" name="update">
+        </div>
+    </form>
+        
+<footer>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img src="./ej601_files/vcss" alt="¡CSS Válido!"></a>
+</footer>
+
+</body></html>
