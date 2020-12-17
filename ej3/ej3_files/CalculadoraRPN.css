@@ -3,8 +3,8 @@
     margin:0 auto;
     padding:20px;
     background-color:darkgrey;
-    width:395px;
-    height:775px;
+    width:490px;
+    height:875px;
     border-radius: 25px;
   }
   .calculadora div button{
@@ -12,6 +12,7 @@
     width:70px;
     height: 70px;
     font-size: 25px;
+    margin: 0.3em;
   }
   #creditos{
     display:block;
@@ -53,3 +54,7 @@
   .grid{
       display: grid;
 }
+
+.cajon{
+    display:grid;
+  }
