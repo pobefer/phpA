@@ -1,6 +1,7 @@
 
 body{
-    font-family: 'Trebuchet MS', sans-serif;
+    margin:5%;
+    font: 400 2em Tahoma, sans-serif; 
 }
 
 header{
@@ -13,18 +14,18 @@ header{
     li{
     list-style-type:none;
     position:relative;
-    width:120px;
+    widows: 8em;
     }
                 
     li a{
-    text-decoration:none;
-    display:block;
-    padding:5px 10px;
-    width:120px;
-    height:30px;
-    border:1px solid #000;
-    
-    }
+        text-decoration:none;
+        display:block;
+        padding: 1em 1em;
+        width:6em;
+        height:30px;
+        border:1px solid #000;
+        
+        }
     .non-active{
         color:#fff;
         background-color:#000;
@@ -59,11 +60,7 @@ header{
         display: grid;
     }
 
-    * {
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-    }
+
 
     input, textarea, button {
         font-family: "Muli-Regular";
@@ -122,12 +119,12 @@ header{
     }
 
     .tecnica{
-        font-size: 0.7em;
+        font-size: 2em;
     }
 
     .panelButton{
         border:none;
-        padding:8px 16px;
+        padding:0.5em 1em;
         vertical-align:middle;
         overflow:hidden;
         text-decoration:none;
@@ -136,7 +133,6 @@ header{
         cursor:pointer;
         white-space:nowrap;
         font-family: Arial;
-        font-size: 11px;
         color: #fff;
         border-radius: 20px;
     }
@@ -150,6 +146,7 @@ header{
         outline:0;
         color:floralwhite;
         background-color: black;
+        size:1.2em;
     }
 
     .form-insert{
